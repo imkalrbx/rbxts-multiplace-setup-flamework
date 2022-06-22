@@ -1,4 +1,4 @@
 /node_modules
 /places/*/out
-/include
+/places/*/include
 *.tsbuildinfo
