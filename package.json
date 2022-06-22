@@ -1,0 +1,26 @@
+{
+  "name": "multi-place-setup-flamework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:game": "rbxtsc -p ./places/game",
+    "watch:game": "rbxtsc -w -p ./places/game",
+	"serve:game": "rojo serve ./places/game"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^1.3.3-types.1",
+    "@rbxts/types": "^1.0.614",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-roblox-ts": "^0.0.34",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
