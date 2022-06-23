@@ -1,4 +1,5 @@
 /node_modules
 /places/*/out
-/include
+/places/*/include
+/places/*/flamework.build
 *.tsbuildinfo
