@@ -5,8 +5,11 @@ Just an example of a working multi place project using Roblox-TS and Flamework
 Because it's a pain to understand and setup a functioning multi-place project, I've made a default project with everything setup, ready to be used by anybody.
 
 ## How to use
-Simply clone the project and do your stuff.
+1. Simply clone the project
 `git clone https://github.com/imkalrbx/rbxts-multiplace-setup-flamework.git`
+2. Run `npm install` to install all the dependencies.
+3. Do your stuff.
+
 You can compile your place using
 - `npm run build:game` To build
 - `npm run watch:game` To start watch mode
