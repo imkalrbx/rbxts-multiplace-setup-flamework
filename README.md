@@ -24,7 +24,7 @@ Don't forget to add three (or two) new scripts in your package.json to make your
 
 ## Things you might want to do/change
 - **Have a common /include folder**: Just move the places/game/include folder to the root of the project;
-add `-i /include` to both the build and watch scripts in `package.json`; update the relevant entries in .gitignore
+add `-i /include` to both the build and watch scripts in `package.json`; update the relevant entries in .gitignore; also update the project.json file on line 21 from `"$path": "include",` to `"$path": "../../include",`
 - **Update flamework**: see this page https://fireboltofdeath.dev/docs/flamework/installation#updating-flamework
 - **Add the additional modules**: again, see this page https://fireboltofdeath.dev/docs/flamework/installation#packages
 
