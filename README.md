@@ -31,4 +31,4 @@ add `-i /include` to both the build and watch scripts in `package.json`; update 
 ## Trivia
 - The 'place' with shared code is named `common`, because it's a bit awkward to import from `shared/shared`.
 - **Q: Why Flamework?** A: It's the framework I'm using right now, and to be honest I couldn't be bothered to make a separate Flamework-less version.
-Just do the opposite of the steps you can find there https://fireboltofdeath.dev/docs/flamework/installation#updating-flamework to get rid of it.
+Just do the opposite of the steps you can find there https://fireboltofdeath.dev/docs/flamework/installation#manual-installation to get rid of it.
